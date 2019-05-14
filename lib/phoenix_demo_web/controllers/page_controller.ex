@@ -3,6 +3,6 @@ defmodule PhoenixDemoWeb.PageController do
   alias Phoenix.LiveView
 
   def index(conn, _params) do
-    LiveView.Controller.live_render(conn, PhoenixDemoWeb.GithubDeployView, session: %{})
+    LiveView.Controller.live_render(conn, PhoenixDemoWeb.CalculatorView, session: %{})
   end
 end
