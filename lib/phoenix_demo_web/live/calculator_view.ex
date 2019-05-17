@@ -5,7 +5,6 @@ defmodule PhoenixDemoWeb.CalculatorView do
   alias PhoenixDemoWeb.Components.Button
 
   def render(assigns) do
-    Logger.debug "#{inspect assigns.state}"
     ~L"""
       <section class="PhoenixDemoWeb CalculatorView">
         <%= Display.render(assigns) %>
